@@ -1,23 +1,24 @@
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations; // This code line is for import the DataAnnotations of entityFramework for can expesifiqued better our table of data                                                      
+using System.ComponentModel.DataAnnotations.Schema; // This line of code is to be able to make relations of type ForeignKey and others 
+using System.Text.Json.Serialization;
 
 namespace minimalAPIef.Models
 {
     public class Task
     {
-        [Key]
+        // [Key]
         public Guid TaskId {get;set;}
         
         
-        [ForeignKey("CategoryId")]
+        // [ForeignKey("CategoryId")]
         public Guid CategoryId {get;set;}
         
         
-        [Required]
-        [MaxLength(200)]
+        // [Required]
+        // [MaxLength(200)]
         public string Title {get;set;}
 
-        public string Desciption {get;set;}
+        public string? Description {get;set;}
 
         public Priority PriorityTask{get;set;}
         
@@ -25,7 +26,7 @@ namespace minimalAPIef.Models
 
         public virtual Category Category {get;set;}
 
-        [NotMapped]
+        // [NotMapped]
         public string Summary {get;set;}
 
 
