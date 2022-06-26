@@ -2,7 +2,7 @@
 <img src="https://github.com/jhordyToro/MinimalAPI_.NETef/blob/main/static/client_to_Program.gif?raw=false" alt="Client to Program Interaction">
 
 ### Program to Database Interaction
-<img src="https://github.com/jhordyToro/MinimalAPI_.NETef/blob/main/static/database.gif?raw=true" alt="Program to Database Interaction">
+<img src="https://github.com/jhordyToro/MinimalAPI_.NETef/blob/main/static/database.gif?raw=false" alt="Program to Database Interaction">
 
 
 
