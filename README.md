@@ -1,5 +1,5 @@
 ### Client to Program Interaction
-<img src="" alt="Client to Program Interaction">
+<img src="https://github.com/jhordyToro/MinimalAPI_.NETef/blob/main/static/client_to_Program.gif?raw=true" alt="Client to Program Interaction">
 
 ### Program to Database Interaction
 <img src="" alt="Program to Database Interaction">
